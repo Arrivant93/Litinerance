@@ -24,11 +24,11 @@ try {
     // resultat contient le nom de la route
     $resultat = $urlMatcher->match($request->getPathInfo());
     ob_start();
-    include __DIR__ . '/../src/views/' . $resultat['_route'] . '.php';
+    include __DIR__ . '/../src/pages/' . $resultat['_route'] . '.php';
     $response = new Response(ob_get_clean());
 } catch (Exception $e) {
     $response = new Response("", 404);
-    include __DIR__ . '/../src/views/404.php';
+    include __DIR__ . '/../src/pages/404.php';
 }
 
 $response->send();
