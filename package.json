@@ -1,0 +1,14 @@
+{
+   "name": "litinerance",
+   "version": "1.0.0",
+   "description": "Contexte du site",
+   "main": "index.js",
+   "scripts": {
+      "tailwind": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch"
+   },
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "tailwindcss": "^3.3.2"
+   }
+}
