@@ -36,7 +36,7 @@ Toutes les pages sont regroupées dans le dossier `src/pages/`. Chaque page doit
 
 # Créer une nouvelle route
 
-## Introduction
+### Introduction
 
 Les routes sont définies dans le fichier route.php, situé dans le dossier `src/route`.
 
@@ -54,7 +54,7 @@ Pour des cas pratiques supplémentaires, consultez la [documentation du routing]
 
 # Tailwind CSS
 
-## Introduction
+### Introduction
 
 Le projet utilise Tailwind CSS.
 
