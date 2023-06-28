@@ -1,6 +1,6 @@
 Options +FollowSymLinks
 Options -Indexes
-DirectoryIndex index.php
+DirectoryIndex public/index.php
 RewriteEngine on
 RewriteCond $1 !^(index\.php|images|robots\.txt)
 RewriteCond %{REQUEST_FILENAME} !-f
