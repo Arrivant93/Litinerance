@@ -5,9 +5,9 @@ use Symfony\Component\Routing\RouteCollection;
 
 $routes = new RouteCollection();
 
-$routes->add('home', new Route('/home', [
+$routes->add('home', new Route('/', [
     '_controler' => ''
 ]));
-$routes->add('bye', new Route('/bye'));
+
 
 return $routes;
